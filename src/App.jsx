@@ -5,6 +5,7 @@ import Man from "../components/Man";
 import Tech from "../components/Tech";
 import Jewelery from "../components/Jewelery";
 import Home from "../components/Home";
+import About from "../components/About";
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Menubar />
+      <Home />
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />}/>
         <Route path="/woman" element={<Woman />}/>
         <Route path="/man" element={<Man />}/>
         <Route path="/tech" element={<Tech />}/>
@@ -23,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

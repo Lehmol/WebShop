@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/bruno-ace-sc-2');
+
+body {
+    background-color: rgb(253, 249, 218);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: rgb(121, 121, 172);
+    margin-right: 10px;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+li a:hover {
+    cursor: pointer;
+    color: rgb(165, 165, 223);
+}
